@@ -1,7 +1,7 @@
-package com.example.backend_study_platform.controller;
+package com.example.backend_study_platform.collection.controller;
 
-import com.example.backend_study_platform.dto.CollectionJobResponse;
-import com.example.backend_study_platform.service.CollectionJobService;
+import com.example.backend_study_platform.collection.dto.CollectionJobResponse;
+import com.example.backend_study_platform.collection.service.CollectionJobService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.webmvc.test.autoconfigure.WebMvcTest;
@@ -15,7 +15,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@WebMvcTest(CollectionJobController.class)
+@WebMvcTest(com.example.backend_study_platform.collection.controller.CollectionJobController.class)
 public class CollectionJobControllerTest {
     @Autowired
     private MockMvc mockMvc;

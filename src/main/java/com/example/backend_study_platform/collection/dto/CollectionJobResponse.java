@@ -1,4 +1,4 @@
-package com.example.backend_study_platform.dto;
+package com.example.backend_study_platform.collection.dto;
 
 public record CollectionJobResponse(
         String jobId,

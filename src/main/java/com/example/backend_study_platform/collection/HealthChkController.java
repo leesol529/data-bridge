@@ -1,4 +1,4 @@
-package com.example.backend_study_platform.controller;
+package com.example.backend_study_platform.collection.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
